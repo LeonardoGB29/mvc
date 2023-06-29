@@ -1,12 +1,11 @@
 #include <cstdlib>
 #include <ctime>
-#include "Model.h"
+#include "Model_Character.h"
 #include "View.h"
 
 int main() {
 
     View ventana(1800, 900, "JUEGO");
-    Model controlador;
 
     while (ventana.isOpen()) {
         ventana.processEvents();
